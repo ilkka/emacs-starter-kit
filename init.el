@@ -76,6 +76,11 @@
 (require 'ido)
 (ido-mode t)
 
+;;cucumber
+(add-to-list 'load-path "~/.emacs.d/cucumber-mode")
+(require 'feature-mode)
+(add-to-list 'auto-mode-alist '("\.feature$" . feature-mode))
+
 ;;mode-compile
 (autoload 'mode-compile "mode-compile"
  "Command to compile current buffer file based on the major mode" t)
