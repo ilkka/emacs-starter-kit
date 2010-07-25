@@ -81,6 +81,10 @@
 (require 'feature-mode)
 (add-to-list 'auto-mode-alist '("\.feature$" . feature-mode))
 
+;;rhtml
+(add-to-list 'load-path "~/.emacs.d/rhtml-mode")
+(require 'rhtml-mode)
+
 ;;mode-compile
 (autoload 'mode-compile "mode-compile"
  "Command to compile current buffer file based on the major mode" t)
