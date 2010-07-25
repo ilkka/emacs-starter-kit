@@ -85,6 +85,10 @@
 (add-to-list 'load-path "~/.emacs.d/rhtml-mode")
 (require 'rhtml-mode)
 
+;;haml
+(add-to-list 'load-path "~/.emacs.d/haml-mode")
+(require 'haml-mode)
+
 ;;mode-compile
 (autoload 'mode-compile "mode-compile"
  "Command to compile current buffer file based on the major mode" t)
