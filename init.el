@@ -109,6 +109,6 @@
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
 (require 'color-theme)
-(color-theme-zenburn)
+;;(color-theme-zenburn)
 
 ;;; init.el ends here
