@@ -10,3 +10,6 @@
 [submodule "yaml-mode"]
 	path = yaml-mode
 	url = https://github.com/yoshiki/yaml-mode.git
+[submodule "rvm"]
+	path = rvm
+	url = https://github.com/senny/rvm.el.git

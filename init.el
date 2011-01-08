@@ -111,4 +111,8 @@
 (require 'color-theme)
 ;;(color-theme-zenburn)
 
+(add-to-list 'load-path "~/.emacs.d/rvm")
+(require 'rvm)
+(rvm-use-default)
+
 ;;; init.el ends here
